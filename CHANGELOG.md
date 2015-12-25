@@ -1,5 +1,48 @@
 # Change Log
 
+## [v1.8.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.8.0)
+
+[Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.7.0...v1.8.0)
+
+**Fixed bugs:**
+
+- Bug in about page [\#28](https://github.com/gdg-managua/jekyll-mdl/issues/28)
+- the img style of about page is too large. [\#27](https://github.com/gdg-managua/jekyll-mdl/issues/27)
+
+## [v1.7.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.7.0) (2015-11-16)
+[Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.6.0...v1.7.0)
+
+**Implemented enhancements:**
+
+- :bug: Fix images displaying wider than card [\#26](https://github.com/gdg-managua/jekyll-mdl/pull/26) ([thunsaker](https://github.com/thunsaker))
+
+**Fixed bugs:**
+
+- Images are bleeding over the card view [\#25](https://github.com/gdg-managua/jekyll-mdl/issues/25)
+
+## [v1.6.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.6.0) (2015-11-01)
+[Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.5.0...v1.6.0)
+
+**Implemented enhancements:**
+
+- Unconventional use of floating action button [\#23](https://github.com/gdg-managua/jekyll-mdl/issues/23)
+- JKM-23 fix Unconventional use of floating action button [\#24](https://github.com/gdg-managua/jekyll-mdl/pull/24) ([oscarmcm](https://github.com/oscarmcm))
+
+**Fixed bugs:**
+
+- Unconventional use of floating action button [\#23](https://github.com/gdg-managua/jekyll-mdl/issues/23)
+
+## [v1.5.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.5.0) (2015-10-25)
+[Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.4.1...v1.5.0)
+
+**Implemented enhancements:**
+
+- JKM-4 add support for disqus comments [\#22](https://github.com/gdg-managua/jekyll-mdl/pull/22) ([oscarmcm](https://github.com/oscarmcm))
+
+**Fixed bugs:**
+
+- Search not work in drawer mode [\#21](https://github.com/gdg-managua/jekyll-mdl/issues/21)
+
 ## [v1.4.1](https://github.com/gdg-managua/jekyll-mdl/tree/v1.4.1) (2015-10-05)
 [Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.4.0...v1.4.1)
 
@@ -23,11 +66,15 @@
 ## [v1.1.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.1.0) (2015-07-25)
 [Full Changelog](https://github.com/gdg-managua/jekyll-mdl/compare/v1.0.0...v1.1.0)
 
-**Merged pull requests:**
+**Implemented enhancements:**
 
 - Add a Bitdeli Badge to README [\#8](https://github.com/gdg-managua/jekyll-mdl/pull/8) ([bitdeli-chef](https://github.com/bitdeli-chef))
 
 ## [v1.0.0](https://github.com/gdg-managua/jekyll-mdl/tree/v1.0.0) (2015-07-21)
+**Implemented enhancements:**
+
+- JKM-1 Create site pagination [\#5](https://github.com/gdg-managua/jekyll-mdl/pull/5) ([oscarmcm](https://github.com/oscarmcm))
+
 **Fixed bugs:**
 
 - Broken vertical "more" menu [\#7](https://github.com/gdg-managua/jekyll-mdl/issues/7)
@@ -35,10 +82,6 @@
 - Button in card post [\#3](https://github.com/gdg-managua/jekyll-mdl/issues/3)
 - Highlight post and cards [\#2](https://github.com/gdg-managua/jekyll-mdl/issues/2)
 - Highlight post layout [\#1](https://github.com/gdg-managua/jekyll-mdl/issues/1)
-
-**Merged pull requests:**
-
-- JKM-1 Create site pagination [\#5](https://github.com/gdg-managua/jekyll-mdl/pull/5) ([oscarmcm](https://github.com/oscarmcm))
 
 
 
