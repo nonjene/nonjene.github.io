@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Export EasyRetro content to clipboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="1 click to export EasyRetro content to clipboard.">
+</head>
+
+<body>
+    <div style="max-width: 700px; margin:auto; font-family: 'Lato' , 'Lucida Grande' , 'Lucida Sans Unicode' ,
+        Tahoma, Sans-Serif;">
+        <h1>Export EasyRetro content to clipboard</h1>
+
+        <p>Drag this link 👉👉 <a
+                href="javascript:(function()%7Balert('%F0%9F%92%85%20Copied!%20You%20can%20now%20prase%20to%20your%20team%20wiki.%20Preview:%5Cn%5Cn'%20+%20copy(markdownFormat()));function%20markdownFormat()%20%7Bconst%20contents%20=%20%5B%5D;document.querySelectorAll('.easy-card-list').forEach((ele)%20=%3E%20%7Bconst%20item%20=%20%7B%7D;item.title%20=%20ele.querySelector('h2').innerText.trim();item.contents%20=%20%5B%5D;ele.querySelectorAll('.column%20.text').forEach((c)%20=%3Eitem.contents.push(%7Btext:%20c.innerText,vote:%20c.closest('.easy-board-front').querySelector('.easy-badge-votes').innerText.trim(),%7D),);contents.push(item);%7D);return%20contents.reduce((prev,%20item)%20=%3E%20%7Bconst%20text%20=%20%60**$%7Bitem.title%7D**$%7Bitem.contents.map((c)%20=%3E%20%60-%20$%7Bc.text%7D%20-%20%F0%9F%91%8D$%7Bc.vote%7D%60).join('%5Cn')%7D%60;return%20prev%20+%20text;%7D,%20'');%7Dfunction%20copy(text)%20%7Bconst%20el%20=%20document.createElement('textarea');el.value%20=%20text;document.body.append(el);el.select();document.execCommand('copy');el.remove();return%20text;%7D%7D)()">Copy
+                EasyRetro</a> 👈👈 to your bookmark bar</p>
+
+        <p>And then you can go to EasyRetro page and click that link at the bookmark bar to copy the content.</p>
+
+    </div>
+
+</body>
+
+</html>
